@@ -35,7 +35,7 @@ class App extends Component {
     }
   }
   onSet = () => {
-    const id = window.prompt('Your PromptPay ID (phone number or e-Wallet ID)', this.getId())
+    const id = 0954919154
     if (id != null) {
       const sanitizedId = sanitizeId(id)
       const n = this.state.slotNumber
